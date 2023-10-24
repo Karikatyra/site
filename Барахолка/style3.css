@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title h1 {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #E9967A;
+}
+
+.list_menu a {
+}
+
+    .list_menu a:hover {
+    }
+
+.open_menu p {
+}
+
+
+.menu {
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    width: 600px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+    border: 4px solid #E9967A;
+    top: 20px;
+    left: 1800px;
+    transition: all 0.375s ease;
+}
+
+    .menu:hover {
+        left: 1215px;
+        transition: all 0.375s ease;
+    }
+
+.menu .input-box {
+    position: relative;
+    top: -10px;
+    left: 15px;
+    width: 30%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+   .menu .input-box label {
+        position: absolute;
+        top: 25px;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 1em;
+        color: black;
+        font-weight: 500;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    .menu .input-box input:focus ~ label,
+    .menu .input-box input:valid ~ label {
+        top: -5px;
+    }
+
+    .menu .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: black;
+        font-weight: 600;
+        padding: 0 30px 0 5px;
+    }
+
+    .menu .input-box .icon {
+        position: absolute;
+        right: 8px;
+        font-size: 1.2em;
+        color: black;
+        line-height: 57px;
+    }
+
+.menu .input-box2 {
+    position: relative;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+    .menu .input-box2 label {
+        position: absolute;
+        top: 25px;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 1em;
+        color: black;
+        font-weight: 500;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    .menu .input-box2 input:focus ~ label,
+    .menu .input-box2 input:valid ~ label {
+        top: -5px;
+    }
+
+    .menu .input-box2 input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: black;
+        font-weight: 600;
+        padding: 0 30px 0 5px;
+    }
+
+    .menu .input-box2 .icon2 {
+        position: absolute;
+        right: 8px;
+        font-size: 1.2em;
+        color: black;
+        line-height: 57px;
+    }
+
+    .menu .input-box3 {
+        position: relative;
+        top: -15px;
+        left: 0px;
+        width: 100%;
+        height: 50px;
+        border-bottom: 2px solid black;
+        margin: 30px 0;
+    }
+
+        .menu .input-box3 label {
+            position: absolute;
+            top: 25px;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1em;
+            color: black;
+            font-weight: 500;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .menu .input-box3 input:focus ~ label,
+        .menu .input-box3 input:valid ~ label {
+            top: -5px;
+        }
+
+        .menu .input-box3 input {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            color: black;
+            font-weight: 600;
+            padding: 0 30px 0 5px;
+        }
+
+        .menu .input-box3 .icon3 {
+            position: absolute;
+            right: 8px;
+            font-size: 1.2em;
+            color: black;
+            line-height: 57px;
+        }
+    .menu .input-box4 {
+        position: relative;
+        top: -238px;
+        left: 250px;
+        width: 150%;
+        height: 50px;
+        border-bottom: 2px solid black;
+        margin: 30px 0;
+    }
+
+        .menu .input-box4 label {
+            position: absolute;
+            top: 25px;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1em;
+            color: black;
+            font-weight: 500;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .menu .input-box4 input:focus ~ label,
+        .menu .input-box4 input:valid ~ label {
+            top: -5px;
+        }
+
+        .menu .input-box4 input {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            color: black;
+            font-weight: 600;
+            padding: 0 30px 0 5px;
+        }
+
+        .menu .input-box4 .icon4 {
+            position: absolute;
+            right: 8px;
+            font-size: 1.2em;
+            color: black;
+            line-height: 57px;
+        }
+    .menu .Otpravit {
+        position: relative;
+        top: -165px;
+        left: 270px;
+        font-size: 20px;
+        font-family: monospace;
+        color: #fff;
+        background: linear-gradient(to left, #E9967A, #F0E68C, #E9967A);
+        text-decoration: none;
+        padding: 20px 70px;
+        border-radius: 10px;
+        background-size: 200%;
+        transition: .5s;
+    }
+
+    .Otpravit:hover {
+        background-position: right;
+    }
